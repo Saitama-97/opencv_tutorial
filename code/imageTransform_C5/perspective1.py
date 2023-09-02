@@ -13,7 +13,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("../data/boat.bmp")
+img = cv.imread("../../data/boat.bmp")
 
 h, w = img.shape[:2]
 

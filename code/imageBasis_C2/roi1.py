@@ -5,7 +5,7 @@ import cv2 as cv
 读取ROI
 """
 
-img = cv.imread("../data/lena.jpg")
+img = cv.imread("../../data/lena.jpg")
 
 face = img[220:400, 250:350]
 

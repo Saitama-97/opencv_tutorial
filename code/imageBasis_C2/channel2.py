@@ -5,7 +5,7 @@ import cv2 as cv
 通道合并 - cv.merge()
 """
 
-img = cv.imread("../data/lena.jpg")
+img = cv.imread("../../data/lena.jpg")
 
 b, g, r = cv.split(img)
 

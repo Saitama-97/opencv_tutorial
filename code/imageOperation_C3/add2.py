@@ -5,7 +5,7 @@ import numpy as np
 图像加法 +、cv.add()
 """
 
-img = cv.imread("../data/lena.jpg", 0)
+img = cv.imread("../../data/lena.jpg", 0)
 
 cv.imshow("lena", img)
 

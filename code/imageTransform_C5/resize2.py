@@ -12,7 +12,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("../data/lena.bmp")
+img = cv.imread("../../data/lena.bmp")
 h, w = img.shape[:2]
 
 rst = cv.resize(img, dsize=(int(w * 0.6), int(h * 0.8)))

@@ -15,7 +15,7 @@
 
 import cv2 as cv
 
-img = cv.imread("../data/lenaNoise.png")
+img = cv.imread("../../data/lenaNoise.png")
 
 dst = cv.GaussianBlur(img, ksize=(5, 5), sigmaX=0, sigmaY=0)
 

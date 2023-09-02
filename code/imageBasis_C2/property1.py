@@ -5,8 +5,8 @@ import cv2 as cv
 获取图像属性
 """
 
-img_gray = cv.imread("../data/lena.bmp")
-img_color = cv.imread("../data/lena.jpg")
+img_gray = cv.imread("../../data/lena.bmp")
+img_color = cv.imread("../../data/lena.jpg")
 
 print("img_gray 属性")
 print("shape=", img_gray.shape)

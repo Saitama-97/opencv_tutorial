@@ -15,7 +15,7 @@
 
 import cv2 as cv
 
-img = cv.imread("../data/lena.bmp")
+img = cv.imread("../../data/lena.bmp")
 
 # x 轴翻转
 rst1 = cv.flip(img, 0)

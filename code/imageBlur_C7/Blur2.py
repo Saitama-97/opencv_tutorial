@@ -19,7 +19,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("../data/lenaNoise.png")
+img = cv.imread("../../data/lenaNoise.png")
 blur = cv.blur(img, (5, 5))
 box_with_normalize = cv.boxFilter(img, ddepth=-1, ksize=(5, 5), normalize=True)
 box_without_normalize = cv.boxFilter(img, ddepth=-1, ksize=(5, 5), normalize=False)

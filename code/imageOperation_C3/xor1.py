@@ -12,7 +12,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("../data/lena.jpg")
+img = cv.imread("../../data/lena.jpg")
 w, h, c = img.shape
 key = np.random.randint(0, 256, size=[w, h, c], dtype=np.uint8)
 encoded_img = cv.bitwise_xor(img, key)

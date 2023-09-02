@@ -5,7 +5,7 @@ import cv2 as cv
 通道拆分 - cv.split()
 """
 
-img = cv.imread("../data/lena.jpg")
+img = cv.imread("../../data/lena.jpg")
 
 # Blue Channel
 blue = img[:, :, 0]

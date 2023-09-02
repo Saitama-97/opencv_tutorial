@@ -11,7 +11,7 @@
 
 import cv2 as cv
 
-img = cv.imread("../data/lena.jpg")
+img = cv.imread("../../data/lena.jpg")
 
 hsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)
 

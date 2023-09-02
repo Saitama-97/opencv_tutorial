@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('../data/lena.bmp')
+img = cv.imread('../../data/lena.bmp')
 cv.imshow('lena_before', img)
 
 for i in range(10, 100):

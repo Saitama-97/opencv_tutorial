@@ -14,7 +14,7 @@
 
 import cv2 as cv
 
-img = cv.imread("../data/lena.bmp")
+img = cv.imread("../../data/lena.bmp")
 
 print(img.shape[:2])
 rst = cv.resize(img, dsize=None, fx=2, fy=0.5)

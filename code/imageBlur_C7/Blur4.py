@@ -11,7 +11,7 @@
 
 import cv2 as cv
 
-img = cv.imread("../data/lenaNoise.png")
+img = cv.imread("../../data/lenaNoise.png")
 
 dst = cv.medianBlur(img, ksize=5)
 

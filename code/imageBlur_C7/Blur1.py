@@ -17,7 +17,7 @@
 import numpy as np
 import cv2 as cv
 
-img = cv.imread("../data/lena.jpg")
+img = cv.imread("../../data/lena.jpg")
 
 dst1 = cv.blur(img, (5, 5))
 dst2 = cv.blur(img, (30, 30))

@@ -12,7 +12,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("../data/lena.jpg")
+img = cv.imread("../../data/lena.jpg")
 
 rgb = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 

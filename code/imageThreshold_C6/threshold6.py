@@ -13,7 +13,7 @@ import cv2 as cv
 import numpy as np
 
 # grayscale image
-img = cv.imread("../data/lena.jpg", 0)
+img = cv.imread("../../data/lena.jpg", 0)
 
 ret, rst = cv.threshold(img, 127, 255, type=cv.THRESH_BINARY)
 

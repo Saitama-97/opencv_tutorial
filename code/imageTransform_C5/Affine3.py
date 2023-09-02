@@ -12,7 +12,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("../data/lena.bmp")
+img = cv.imread("../../data/lena.bmp")
 
 h, w, c = img.shape
 
