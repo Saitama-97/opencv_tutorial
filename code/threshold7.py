@@ -26,10 +26,3 @@ print("thd=\n", thd)
 t2, otsu = cv.threshold(img, 0, 255, type=cv.THRESH_OTSU)
 
 print("otsu=\n", otsu)
-
-# 莲华
-a = (89 + 89 + 79 + 79 + 79 + 99 + 79 + 79 + 79 + 79 + 79 + 79 + 79) / 2
-
-# 时空
-b = 79 + 79 + 40 + 129 + 99 + 79 + 79 + 40
-print(a + b)
