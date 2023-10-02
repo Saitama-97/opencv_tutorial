@@ -7,6 +7,7 @@
   @Author  : Saitama
   @IDE     : PyCharm
   @Des     : 图像平滑处理 - 高斯滤波 - cv.GaussianBlur(img, ksize, sigmaX, sigmaY, borderType)
+            求加权和
             sigmaX : 卷积核在 X 轴方向的标准差
             sigmaY : 卷积核在 Y 轴方向的标准差
             综上所述：

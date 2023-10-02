@@ -7,6 +7,7 @@
   @Author  : Saitama
   @IDE     : PyCharm
   @Des     : 图像平滑处理 - 均值滤波 - cv.blur(img, ksize, anchor, borderType)
+            求均值
             ksize : 滤波核大小
             anchor : 锚点，默认为(-1, -1)，表示为核的中心点，一般保持默认值即可
             borderType : 边界样式，一般保持默认值即可

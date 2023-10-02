@@ -7,6 +7,7 @@
   @Author  : Saitama
   @IDE     : PyCharm
   @Des     : 图像平滑处理 - 中值滤波 - cv.medianBlur(img, ksize)
+            求中值
 """
 
 import cv2 as cv

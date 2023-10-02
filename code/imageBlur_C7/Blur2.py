@@ -7,6 +7,7 @@
   @Author  : Saitama
   @IDE     : PyCharm
   @Des     : 图像平滑处理 - 方框滤波 - cv.boxFilter(img, ddepth, ksize, anchor, normalize, borderType)
+            求和
             ddepth : 表示处理结果图像的深度，一般使用 -1 表示和源图像使用相同的图像深度
             ksize : 滤波核
             anchor : 锚点，一般使用默认值(-1, -1)

@@ -7,6 +7,7 @@
   @Author  : Saitama
   @IDE     : PyCharm
   @Des     : 图像平滑处理 - 双边滤波 - cv.bilateralFilter(img, d, sigmaColor, sigmaSpace)
+            考虑临界点
             d : 滤波时选取的空间距离参数，表示以当前像素点为中心点的直径，推荐 5，对于较大噪声，推荐 9
             sigmaColor : 滤波时选取的颜色差值范围，决定周围多少像素点参与进来
             sigmaSpace : 一般同上
