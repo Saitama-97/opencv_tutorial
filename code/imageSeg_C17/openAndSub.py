@@ -18,7 +18,6 @@ o = cv.imread("../../data/my.bmp")
 k = np.ones((5, 5), np.uint8)
 
 e = cv.erode(o, k)
-
 b = cv.subtract(o, e)
 
 plt.subplot(131)
@@ -34,3 +33,4 @@ plt.imshow(b)
 plt.axis("off")
 
 plt.show()
+
